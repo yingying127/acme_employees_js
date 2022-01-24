@@ -38,7 +38,7 @@ const employees = [
   spacer('');
   
   spacer('findManagementChain for moe')
-  //given an employee and a list of employees, return a the management chain for that employee. The management chain starts from the employee with no manager with the passed in employees manager 
+  //given an employee and a list of employees, return the management chain for that employee. The management chain starts from the employee with no manager with the passed in employees manager 
   console.log(findManagementChainForEmployee(findEmployeeByName('moe', employees), employees));//[  ]
   spacer('');
   
